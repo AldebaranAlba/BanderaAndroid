@@ -11,37 +11,80 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent">
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:background="#258118"  >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00"  />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#"  />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:background="#ffffff">
 
         <View
-            android:layout_width="150dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
-            android:background="#258118" />
-
-        <!--        <View-->
-        <!--            android:layout_width="150dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:background="#ffffff"/>-->
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="89dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/escudo"
-            tools:layout_editor_absoluteX="150dp" />
+            android:background="#ffff00"
+            />
 
         <View
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:background="#cb0505 " />
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#"  />
 
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:orientation="horizontal"
+            android:background="#cb0505">
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00"
+                />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#"  />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00"  />
+
+
+        </LinearLayout>
 
     </LinearLayout>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
