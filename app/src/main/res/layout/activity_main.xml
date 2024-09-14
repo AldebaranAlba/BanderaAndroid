@@ -1,99 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:orientation="horizontal"
-            android:background="#258118"
-            android:gravity="left">
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#ffff00"  />
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#"  />
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#ffff00"  />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:orientation="horizontal"
-            android:background="#ffffff"
-            android:gravity="center">
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:background="#258118"
+        android:gravity="left">
 
         <View
             android:layout_width="20dp"
             android:layout_height="match_parent"
-            android:background="#ffff00"
-
-            />
+            android:background="#ffff00" />
 
         <View
             android:layout_width="20dp"
             android:layout_height="match_parent"
-            android:background="#"
-            />
+            android:background="#" />
 
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#ffff00"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="315dp"
-            android:orientation="horizontal"
-            android:background="#cb0505"
-            android:gravity="right">
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#ffff00"
-
-                />
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:background="#"
-                />
-
-            <View
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="#ffff00" />
-
-
-        </LinearLayout>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#ffff00" />
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:gravity="center">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#ffff00" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:orientation="horizontal"
+        android:background="#cb0505"
+        android:gravity="right">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#ffff00" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#ffff00" />
+
+    </LinearLayout>
+
+</LinearLayout>
